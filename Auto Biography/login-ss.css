@@ -1,0 +1,142 @@
+*{
+	padding:0px;
+	margin:0px;
+	font-family: verdana, sans-serif;
+}
+
+html{
+	height:100%;
+	width:100%;
+}
+
+body{
+	background:url("images/victory.jpg")no-repeat fixed center center;
+	background-size:100% 100%;
+
+
+}
+
+header{
+	color:black;
+	padding-bottom:20px;
+	padding-top:20px;
+	background:url(images/sandstorm.jpg);
+	border-style:solid;
+	border-bottom-width:5px;
+	border-bottom-color:orange;
+	filter:opacity(90%);
+}
+
+h2.title-one{
+	position:absolute;
+	top:5px;
+	left:10px;
+}
+
+h1.text-edit, h2.text-edit2{
+	text-align:center;
+}
+
+h1.text-edit{
+	font-size:35px;
+}
+
+h2.text-edit2{
+	font-size:20px;
+}
+
+div#signin-container{
+	margin:80px 300px 100px 300px;
+	padding:30px;
+	position:relative;
+	top:70px;
+	background-color:#E4E4E4;
+	height:320px;
+	width:300px;
+	margin:100px auto;
+	filter:opacity(90%);
+	
+}
+
+h2.signin-text{
+	text-align:center;
+	margin-bottom:0px;
+	position:relative;
+	bottom:5px;
+}
+
+
+h2.account-text{
+	margin-top:40px;
+	margin-bottom:40px;
+	text-align:center;
+
+}
+
+hr.break-bar{
+	width:300px;
+	margin:0px auto;
+	margin-top:15px;
+
+}
+
+
+input.email-address, input.password{
+	margin-top:20px;
+	width:300px;
+	height:40px;
+	position:relative;
+	left:0px;
+	font-size:20px;
+
+}
+
+p.min{
+	margin-top:10px;
+	font-size: 13px;
+	text-align:center;
+}
+
+input.input-checkbox{
+	size:15%;
+	position:relative;
+	left:30px;
+}
+
+input.login-bt{
+	margin-top:20px;
+	width:300px;
+	height:40px;
+	color:white;
+	background-color:blue;
+	position:relative;
+	font-size:15px;
+}
+
+
+p.reset-password{
+	margin-top:15px;
+}
+
+div.signup-option{
+	background-color:white;
+	padding-top:15px;
+	width:360px;
+	height:40px;
+	margin:0px auto;
+	margin-top:40px;
+	position:relative;
+	right:30px;
+	bottom:10px;
+}
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,272 @@
+*{
+	padding:0px;
+	margin:0px;
+	font-family:arial, sans-serif;
+}
+
+body{
+	background-color:black;
+	color:black;
+}
+
+li{
+	list-style: none;
+}
+
+
+header{
+	color:black;
+	padding:20px;
+	margin:10px;
+	background:url(images/sandstorm.jpg);
+	border-style:solid;
+	border-bottom-width:5px;
+	border-bottom-color:orange;
+}
+
+
+
+p.log{
+	text-align:right;
+	position:absolute;
+	top:20px;
+	right:103px;
+	padding-right:5px;
+	border-right:2px solid black;
+}
+
+p.reg-style{
+	position:absolute;
+	top:21px;
+	right:40px;
+}
+
+
+div.background-container{
+	background:url(images/rp.jpg) no-repeat fixed center center;
+	height:1500px;
+	width:800px;
+	margin-top:-10px;
+	margin-left:270px;
+	margin:auto;
+	
+}
+
+
+li.trial{
+	list-style:none;
+	float:left;
+	height:40px;
+	overflow:hidden;
+	margin-top:0px;
+
+}
+
+
+
+li.resources-quotes{
+	float:right;
+	margin-right:10px;
+
+}
+
+
+hr{
+	border-color:red;
+	border-width:3px;
+	border-style:solid;
+	width:500px;
+	position:relative;
+	left:11px;
+}
+
+nav.main-list-wrapper{
+	height:40px;
+	width:1000px;
+	background-color:#F7F000;
+	margin:30px auto;
+}
+
+div.container-general:hover{
+	margin-top:-40px;
+}
+
+div.container-general{
+	width:200px;
+	height:80px;
+	background-color:pink;
+	-webkit-transition:margin-top .3s;
+}
+
+div.container-one{
+	width:200px;
+	height:36px;
+	background-color:black;
+	overflow:hidden;
+	border-bottom:4px orange solid;
+	
+}
+
+div.container-two{
+	width:200px;
+	height:36px;
+	background-color:orange;
+	overflow:hidden;
+	border-bottom:4px black solid;
+}
+
+h3.text-one, p.text-one{
+	color:orange;
+	text-align:center;
+	margin-top:10px;
+}
+
+
+
+h3.text-two, p.text-two{
+	color:black;
+	text-align:center;
+	margin-top:10px;
+}
+
+img.profile-pic{
+	height:230px;
+	width:185px;
+	margin:30px;
+	position:relative;
+	left:0px;
+	top:60px;
+	border-style:solid;
+	border-color:black;
+	border-width:7px;
+	border-radius:5px;
+}
+
+a:link{
+	color: black;
+	text-decoration: underline;
+}
+
+a:hover{
+	color: black;
+	text-decoration: underline;
+	text-decoration-color:orange;
+}
+
+a:visited{
+	color: black;
+	text-decoration: underline;
+	text-decoration-color:orange;
+}
+
+h2.rising-phoenix{
+	color:red;
+	filter:alpha (opacity=90);
+	opacity:.90;
+	-moz-opacity:.90;
+	padding:15px 5px 15px 5px;
+	margin-right:30px;
+	margin-left:30px;
+	background-color:black;
+	text-align:center;
+	position:relative;
+	top:-288px;
+	left:0px;
+}
+
+p.bio-text{
+	color:orange;
+	padding:20px;
+	margin-left: 240px;
+	margin-right: 30px;
+	position:relative;
+	top:-275px;
+	background-color:black;
+	filter:alpha (opacity=80);
+	opacity:.80;
+	-moz-opacity:.80;
+	text-align:center;
+	height:800px;
+	overflow: hidden;
+}
+
+li.trial-two{
+	list-style:none;
+	float:left;
+	height:40px;
+	overflow:hidden;
+	margin-top:0px;
+
+}
+
+
+li.life-lessons-l, li.accomplishments-l, li.fun-stories-l, li.goals-l, li.quotes, li.bio{
+	background-color:black;
+	width:200px;
+	height:40px;
+	filter:opacity(80%);
+}
+
+li.life-lessons-l{
+	position:relative;
+	top:-865px;
+	left:30px;
+}
+
+li.accomplishments-l{
+	position:relative;
+	top:-648px;
+	left:-170px;
+}
+
+li.fun-stories-l{
+	position:relative;
+	top:-780px;
+	left:-370px;
+}
+
+
+li.goals-l{
+	position:relative;
+	top:-736px;
+	left:-570px;
+	
+}
+
+li.quotes{
+	position:relative;
+	top:-732px;
+	right:170px;
+}
+
+li.bio{
+	position:relative;
+	bottom:870px;
+	left:30px;
+}
+
+ul.list-bios > li{
+	color:black;
+	width:150;
+	height:40;
+	background-color:blue;
+
+}
+
+
+nav.general-bios > ul{
+	margin-top:5px;
+	margin:auto;
+	width:170px;
+	height:500px;
+	background-color:orange;
+	border-bottom: 4px solid grey;
+	position:relative;
+	bottom:1400px;
+}
+
+
+
+
+
+

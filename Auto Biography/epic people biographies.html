@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>epic people biographies</title>
+	<link rel="stylesheet" type="text/css" href="epic-people-ss.css">
+</head>
+
+<body>
+<div id="container">
+<!-- DO NOT CODE ABOVE THIS LINE-->
+
+<header>
+	
+	<h1>Epic People Biographies</h1>
+
+		
+			<p class="log">
+				<a href="file:///Users/KupidoExportLLC/Desktop/WEB%20DEV%20MY%20PROJECTS./Auto%20Biography/login.html">Login</a>
+			</p>
+
+		<div class="login-wrapper">
+			<a href="file:///Users/KupidoExportLLC/Desktop/WEB%20DEV%20MY%20PROJECTS./Auto%20Biography/registration.html">
+				<p class="reg-style">Register</p>
+			</a>
+		</div>
+
+		<div class="color">
+			<ul>
+				<li class="resources-quotes"><a href="#">subscribe to newsletter</a></li>
+				<li class="resources-quotes"><a href="#">resources</a></li>
+			</ul>
+		</div>
+</header>
+
+
+<!-- 
+WE MIGHT PUT THIS BAR BELOW THE HEADER <hr> 
+-->
+
+<!-- 
+I'VE NOTICED WE'VE HAD A HARD TIME MAKING CERTAIN CSS STYLING WORK EVEN WHEN WE'RE INPUTTING THE CORRECT SYNTAX. AFTER COMPARING PAGES, I REALIZED THAT THE ORDER IN WHICH YOU CREATE THE CSS STYLES MATTERS IN SOME CASES. I ALSO NOTICED THAT ON SOME ELEMENTS YOU CAN'T JUST INPUT THE INFORMATION YOU WANT TO CHANGE, BUT YOU HAVE TO INPUT ALL ASPECTS OF IT. FOR EXAMPLE: IF YOU WANT TO EDIT A BOTTOM BORDER, AND YOU WANT TO INPUT ALL THE EDITS IN THE SAME LINE LIKE THIS border-bottom: 5px solid green; If you don't include the style which in this case is solid, the color green won't appear!
+-->
+
+<!--
+NEW DISCOVERY: WHEN YOU'RE TRYING TO EDIT MULTIPLE ELEMENTS, OR CLASSES AT THE SAME TIME, IN THE SAME SPACE, THE COMMA IS VERY IMPORTANT. IT WILL NOT WORK WITHOUT IT. BUT WHEN YOU'VE ACTUALLY ADDING THE VALUES THAT MAKE THE CHANGES SUCH AS WIDTH, HEIGHT, ETC. YOU DON'T NEED THE COMMAS
+-->
+
+<!-- 
+IN ORDER FOR AN IMAGE NOT TO REPEAT ITSELF, YOU JUST HAVE TO ADD no-repeat; TO THE CSS SECTION WHERE YOU ADDED THE IMAGE.
+-->
+
+<!--
+ADDING fixed; WILL MAKE YOUR BACKGROUND IMAGE NOT SCROLL!
+-->
+
+<!-- SO THIS IS CRAZY BUT YOU CAN ADD A BG IMAGE TO PRETTY MUCH ANY ELEMENT THAT'S A BLOCK ELEMENT, AND IT'LL DISPLAY IT IN THAT PARTICULAR ELEMENT. SO THIS IS HOW YOU CAN ADD SOME TEXT IN FRONT OF A BG IMAGE. 
+-->
+
+<!-- 
+VERY VERY IMPORTANT: I NOTICED THAT INPUTTING ALL THE COMMANDS IN THE SAME SECTION AS THE BACKGROUND IMAGE WASN'T ALWAYS WORKING. I WAS REALLY PUZZLED AS TO WHY. WHEN I PUT BACKGROUND BY ITSELF, IT WORKED. BUT WHEN I PUT background-image: I HAD TO INPUT EVERYTHING UNDERNEATH IT WITH IT'S CURRENT TITTLE. SO WITH BACKGROUND YOU'RE ABLE TO JUST ADD THE COMMANDS WITHOUT HAVING TO PUT THE TITLES UNDERNEATH IT.
+-->
+
+<!-- 
+THIS IS AN AMAZING DISCOVERY: WHEN YOU'RE TRYING TO ALIGN A CHAIN OF LI ELEMENTS SUCH AS TRYING TO FLOAT THEM A CERTAIN DIRECTION, OR TRYING TO MAKE THEM HORIZONTAL, YOU CAN ACTUALLY GIVE THEM ALL THE SAME CLASS, AND THEN IF YOU FLOAT THE CLASS, IT'LL ALIGN THEM JUST AS IF YOU WERE USING THE LI ELEMENT IN CSS!
+-->
+
+<!-- 
+I FOUND ANOTHER AMAZING! PIECE OF INFORMATION!: IF YOU WANT USE AN ELEMENT SUCH AS THE li IN CSS, BUT YOU DON'T WANT CSS TO STYLE ALL THE TAGS THAT HAVE THE SAME ELEMENT FOR THE ENTIRE PAGE, ALL YOU HAVE TO DO IS SPECIFY WHAT THE PARENT ELEMENT IS. EXAMPLE: div.container-one > li{  }
+-->
+
+
+<nav class="main-list-wrapper">
+	<ul>
+		<li class="trial">
+			<div class="container-general">
+				<div class="container-one uniform">
+					<h3 class="text-one">HOME</h3>
+					
+				</div>
+
+				<div class="container-two">
+					<h3 class="text-two uniform">
+						<a href="#">
+							HOME
+						</a>
+					</h3>
+				</div>
+			</div>			
+		</li>
+
+		<!--BREAK-->
+		
+		<li class="trial">
+			<div class="container-general">
+				<div class="container-one uniform">
+					<h3 class="text-one">BIOS</h3>
+					
+				</div>
+
+				<div class="container-two uniform">
+					<h3 class="text-two">
+						<a href="#">
+							BIOS
+						</a>
+					</h3>
+				</div>
+			</div>			
+		</li>
+
+		<!--BREAK-->
+
+		<li class="trial">
+			<div class="container-general">
+				<div class="container-one uniform">
+					<h3 class="text-one">PROJECT EPIC</h3>
+					
+				</div>
+
+				<div class="container-two uniform">
+					<h3 class="text-two">
+						<a href="#">
+							PROJECT EPIC
+						</a>
+					</h3>
+				</div>
+			</div>			
+		</li>
+
+		<!--BREAK-->
+
+		<li class="trial">
+			<div class="container-general">
+				<div class="container-one uniform">
+					<h3 class="text-one">FAMOUS QUOTES</h3>
+				</div>
+
+				<div class="container-two uniform">
+					<h3 class="text-two">
+						<a href="#">
+							FAMOUS QUOTES
+						</a>
+					</h3>
+				</div>
+			</div>			
+		</li>
+		
+		<!--BREAK-->
+
+		<li class="trial">
+			<div class="container-general">
+				<div class="container-one uniform">
+					<h3 class="text-one">LIFE HACKS</h3>
+					
+				</div>
+
+				<div class="container-two uniform">
+					<h3 class="text-two">
+						<a href="#">
+							LIFE HACKS
+						</a>
+					</h3>
+				</div>
+			</div>			
+		</li>
+		
+
+	
+</nav>
+
+<div class=background-container>
+	<img class="profile-pic" src="images/profile.jpg" alt="my profile picture">
+
+	<h2 class="rising-phoenix">RISING PHOENIX</h2>
+
+	<P class="bio-text">
+		I want to test this text out, to see if it works, because so far I can't get the p to work.
+	</P>
+
+	<nav>
+		<ul>
+			<li class="bio trial-two">
+				<div class="container-general">
+					
+					<div class="container-one">
+						<p class="text-one">Bio</p>
+					</div>
+
+					<div class="container-two">
+						<a href="#">
+							<p class="text-two">Bio</p>
+						</a>
+					</div>
+
+				</div>
+			</li>
+
+
+			<li class="accomplishments-l trial-two">
+				<div class="container-general">
+					
+					<div class="container-one">
+						<p class="text-one">Accomplishments</p>
+					</div>
+
+					<div class="container-two">
+						<a href="#">
+							<p class="text-two">Accomplishments</p>
+						</a>
+					</div>
+
+				</div>
+			</li>
+
+
+			<li class="fun-stories-l trial-two">
+				<div class="container-general">
+					
+					<div class="container-one">
+						<p class="text-one">Fun Stories</p>
+					</div>
+
+					<div class="container-two">
+						<a href="#">
+							<p class="text-two">Fun Stories</p>
+						</a>
+					</div>
+
+				</div>
+			</li>
+
+			<li class="goals-l trial-two">
+				<div class="container-general">
+					
+					<div class="container-one">
+						<a href="#">
+							<p class="text-one">Goals</p>
+						</a>
+					</div>
+
+					<div class="container-two">
+						<a href="#">
+							<p class="text-two">Goals</p>
+						</a>
+					</div>
+
+				</div>
+			</li>
+
+			<li class="life-lessons-l trial-two">
+				<div class="container-general">
+					
+					<div class="container-one">
+						<p class="text-one">Life Lessons</p>
+					</div>
+
+					<div class="container-two">
+						<a href="#">
+							<p class="text-two">Life Lessons</p>
+						</a>
+					</div>
+
+			<li class="quotes trial-two">
+				<div class="container-general">
+					
+					<div class="container-one">
+						<p class="text-one">Quotes</p>
+					</div>
+
+					<div class="container-two">
+						<a href="#">
+							<p class="text-two">Quotes</p>
+						</a>
+					</div>
+
+				</div>
+			</li>
+		
+
+		</ul>
+	</nav>
+</div>
+
+
+	
+</div>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+

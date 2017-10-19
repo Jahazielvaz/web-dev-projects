@@ -1,0 +1,28 @@
+*{
+	padding:0px;
+	margin:0px;
+	font-family:verdana, sans-serif;
+	width:100%;
+	height:100%;
+}
+
+body{
+	background-color:#1f1f1f;
+}
+
+
+
+div.main-container{
+	background:url(images/epic-people.jpeg) no-repeat center bottom;
+	margin-left:0px auto;
+	margin-right:0px auto;
+	margin-top:0px;
+	width:90%;
+	height:100%;
+	position:absolute;
+	bottom:300px;
+	left:50px;
+
+}
+
+
